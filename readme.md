@@ -6,8 +6,6 @@ ssh -L 8080:127.0.0.1:9999 -i "pablo-rejo-keys-ec2.pem" ubuntu@18.101.59.179
 # port fordwarding para acceder a otras VM:
 ssh -L 5000:10.0.0.188:22 -i "pablo-rejo-keys-ec2.pem" ubuntu@18.101.59.179
 ssh -p 5000 -i "pablo-rejo-keys-ec2.pem" ubuntu@localhost
-o
-ssh -i "pablo-rejo-keys-ec2.pem" -J ubuntu@18.101.59.179 -i "pablo-rejo-keys-ec2.pem" ubuntu@10.0.0.188
 ```
 
 
