@@ -1,0 +1,7 @@
+slice,protocolo,bps_sender,bps_receiver,bps_compare,max_rtt (ms),min_rtt (ms),mean_rtt (ms),retransmits,jitter (ms),lost_pct
+uesimtun0_10K.json,tcp,85193.09,13965.25,16.39,1.56,1.22,1.35,28,,
+uesimtun1_2M.json,tcp,167150.71,65504.93,39.19,1.96,1.13,1.47,113,,
+uesimtun2_10M.json,tcp,10046590.25,10005975.3,99.6,3.79,1.54,2.25,286,,
+uesimtun3_50M.json,tcp,32063807.42,31514901.78,98.29,4.62,1.46,2.72,1836,,
+uesimtun4_100M.json,tcp,31840321.82,31412991.48,98.66,3.4,1.3,2.15,2142,,
+uesimtun5_200M.json,tcp,200038542.01,199157141.24,99.56,3.17,2.03,2.44,273,,
